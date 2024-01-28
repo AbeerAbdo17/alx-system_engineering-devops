@@ -3,13 +3,13 @@
 
 xv=1
 while [ $xv -le 10 ]; do
-    if [ $xv -eq 4 ]; then
-        echo "bad luck"
-    elif [ $xv -eq 8 ]; then
-        echo "good luck"
-    else
-        echo "Best School"
-    fi
+	if [ $xv -eq 4 ]; then
+		echo "bad luck"
+	elif [ $xv -eq 8 ]; then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
 
-    ((xv++))
+	((xv++))
 done
