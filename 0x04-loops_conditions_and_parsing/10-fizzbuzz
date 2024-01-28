@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 100
+
+for ((xv=1; xv<=100; xv++)); do
+    if ((xv % 3 == 0)) && ((xv % 5 == 0)); then
+        echo "FizzBuzz"
+    elif ((xv % 3 == 0)); then
+        echo "Fizz"
+    elif ((xv % 5 == 0)); then
+        echo "Buzz"
+    else
+        echo "$xv"
+    fi
+done
