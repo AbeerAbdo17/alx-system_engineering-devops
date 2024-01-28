@@ -3,6 +3,6 @@
 
 xv=0
 until [ $xv -ge 10 ]; do
-    echo "Best School"
-    ((xv++))
+	echo "Best School"
+	((xv++))
 done

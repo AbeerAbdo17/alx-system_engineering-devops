@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # Bash script that displays Best School 10 times
 
-for ((xv=0; xv<10; xv++)); do
+xv=0
+while [ $xv -lt 10 ]; do
+	if [ $xv -eq 9 ]; then
+		echo "Hi"
+	fi
 	echo "Best School"
+	((xv++))
 done
