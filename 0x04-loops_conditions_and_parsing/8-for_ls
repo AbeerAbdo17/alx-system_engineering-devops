@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script
+
+list=$(ls)
+for xv in $list; do
+  echo "$xv" | cut -d '-' -f2
+done
