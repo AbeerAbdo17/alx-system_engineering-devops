@@ -1,5 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import requests
+
 
 def number_of_subscribers(subreddit):
     """Returns the number of subscribers for a given subreddit."""
